@@ -4,6 +4,7 @@ class App < Sinatra::Base
   def get(string)   
     GET '/' do 
       "#{string}"
+    end
   end
 
 end
